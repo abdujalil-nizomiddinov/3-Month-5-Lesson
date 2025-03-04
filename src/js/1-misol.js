@@ -1,3 +1,10 @@
+let button = document.getElementById("btn");
+button.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  chiqar();
+});
+
 if (!sessionStorage.getItem("wonGame")) {
   alert(
     "Ushbu sahifadan foydalana olish uchun son topish o'yinda yutishingiz kerak !!!"
